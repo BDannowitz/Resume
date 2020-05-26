@@ -18,21 +18,19 @@
 
 % pdf data
 \pdfinfo{
-/Author (Austin Basye)
-/Title  (Austin Basye's Resume)
-/Subject (Austin Basye)
+/Author (Bryan Dannowitz)
+/Title  (Bryan Dannowitz's Resume)
+/Subject (Bryan Dannowitz)
 }
 
 % personal data
-\firstname{Austin}
-\familyname{Basye}
+\firstname{Bryan P.}
+\familyname{Dannowitz}
 \title{Data Scientist, Physics PhD, Generalist}
-\address{1718 Belmont Blvd.}{Abilene, TX 79602}
-\phone[fixed]{(806)-620-2076}
-\email{austin.basye@gmail.com}
-\social[twitter][]{ATBasye}
-\social[linkedin][]{austinbasye}
-%\photo[64pt]{resources/Austin_Basye}
+\address{4225 Hartford Street}{Saint Louis, MO 63116}
+\phone[fixed]{708.400.9291}
+\email{bryan.dannowitz@gmail.com}
+\social[linkedin][]{dannowitz}
 
 \newcommand{\up}[1]{\ensuremath{^\textrm{\scriptsize#1}}}
 
@@ -56,118 +54,15 @@
 \maketitle
 \vspace{-12mm}
 
-%----------------------------------------------------------------------------------
-%            TL;DR
-%----------------------------------------------------------------------------------
-\section{\textbf{TL;DR}}
-I have worked on exceptionally difficult problems in the fields of high energy particle physics, sports analytics and computer vision. Each challenge has allowed me to develop and hone disparate, yet complementary skill sets. Intellectual freedom motivates me, and I have only ever experienced that degree of freedom in the wake of truly hard problems. As an employee, I use this motivation to identify these problems and deliver creative, effective solutions in close collaboration with my peers.
+\input{./resources/tldr.tex}
 
 %----------------------------------------------------------------------------------
 %            Work & Research Experience
 %----------------------------------------------------------------------------------
-\section{\textbf{Experience}}
+\input{./resources/experience.tex}
 
-%% Hudl
-\cventry
-{2015 -- Pres.}
-{Hudl}{Senior Data Scientist Lead II}
-{}{}{}
-\cvitem{\pin}{Remote (Work From Home), Abilene, \textsc{Tx}}
+\input{./resources/skills.tex}
 
-\cvitem{}{\labelitemi\hspace{2mm}
-Responsible for pursuing self-defined projects of articulable business value}
-\cvitem{}{\labelitemi\hspace{2mm}
-Developed and deployed multiple ETL pipelines, leveraging AWS systems}
-\cvitem{}{\labelitemi\hspace{2mm}
-Implemented event detection and classification ML models, utilizing sport video and player telemetry}
-\cvitem{}{\labelitemi\hspace{2mm}
-Authored numerous analysis documents and presentations targeted for key decision makers}
-\cvitem{\textit{Tools}}{$\rightarrow$\hspace{2mm}%\labelitemii\hspace{2mm}
-Python, Jupyter, Confluence, Github, Docker, OpenCV, Keras, TensoFlow, Pytorch, Numba, Spark, AWS}
-
-\vspace{5px}
-%% ATLAS
-\cventry
-{2010 -- 2015}
-{\textbf{ATLAS Experiment}}{Research Assistant}
-{}{}{}
-%\newline
-\cvitem{\pin}{\textit{CERN}, Meyrin, \textsc{Switzerland}}
-\cvitem{\uni}{\textit{University of Illinois at Urbana-Champaign}, Urbana, \textsc{Il}}
-
-
-\cvitem{}{\labelitemi\hspace{2mm}
-Independently implemented a novel multivariate analysis of the semi-leptonic $\ttbar{}H (H\to{}\bbbar{})$ channel} 
-\cvitem{}{\labelitemi\hspace{2mm}
-Developed a Perl-based assignment portal to automate and optimize distributed resource allocation on the Worldwide LHC Computing Grid (WLCG)}
-\cvitem{}{\labelitemi\hspace{2mm}
-Improved analysis compute performance by more than two orders of magnitude; improved official ATLAS result by more than 15\% without requiring additional data taking}
-\cvitem{}{\labelitemi\hspace{2mm}
-Chaired daily data quality operations meetings during inaugural run of the Large Hadron Collider}
-\cvitem{\textit{Tools}}{$\rightarrow$\hspace{2mm}
-C++, Perl, ROOT, Evernote, SVN, Bash, \LaTeX}
-
-\vspace{5px}
-%% NIFFTE
-\cventry
-{2008 -- 2009}
-{\textbf{NIFFTE Experiment}}{Research Assistant}
-{}{}{}
-\cvitem{\pin}{\textit{Los Alamos National Lab}, Los Alamos, \textsc{Nm}}
-\cvitem{\uni}{\textit{Abilene Christian University}, Abilene, \textsc{Tx}}
-
-\cvitem{}{\labelitemi\hspace{2mm}
-Modeled the experiment hall and service routing using AutoCAD 2007-2008 and Inventor 10-11}
-
-\vspace{5px}
-%% PHENIX
-\cventry
-{2005 -- 2009}
-{\textbf{PHENIX Experiment}}{Research Assistant (Qualified Collaboration Author)}
-{}{}{}
-\cvitem{\pin}{\textit{Brookhaven National Lab}, Upton, \textsc{Ny}}
-\cvitem{\uni}{\textit{Abilene Christian University}, Abilene, \textsc{Tx}}
-
-\cvitem{}{\labelitemi\hspace{2mm}
-Designed and drafted technical, manufacturing and assembly plans for 40m$^2$, \$2 million detector upgrade using AutoCAD 2007-2008 and Inventor 10-11}
-\cvitem{}{\labelitemi\hspace{2mm}
-Supervised and optimized the assembly, QC, and commissioning factory for the detector upgrades}
-\cvitem{\textit{Tools}}{$\rightarrow$\hspace{2mm}%\labelitemii\hspace{2mm}
-C/C++, Perl, AutoCad 2007-2008, Inventor 10-1, Excel, MatLab, PowerPoint }
-
-\vspace{5px}
-%% MISC
-\cventry{t < c. 2004}
-{\textbf{Miscellaneous Employers}}{Student and Cowboy}{}{}{}
-\cvitem{\pin}{Canyon, \textsc{Tx} }
-
-%\cvitem{}{\labelitemi\hspace{2mm}
-%Identified a passion for challenging problems, creative solutions, and coloring outside the lines,
-%motivated by a desire to leave this world a better place than I found it}
-\cvitem{}{\labelitemi\hspace{2mm}
-Developed a strong work ethic building and mucking horse stables, mending fence, perfecting proper 'T'-post driving technique, and using my hands to create things that addressed the needs of others}
-\cvitem{}{\labelitemi\hspace{2mm}
-Developed and fabricated a 6 wheeled, 30 ft, steel, pumpkin-fed trebuchet with more than 1 ton of counterweight, because the world clearly needs more airborne pumpkins}
-
-%----------------------------------------------------------------------------------
-%            Education
-%----------------------------------------------------------------------------------
-\section{\textbf{Education}}
-
-\cventry
-{2009 -- 2015}
-{\textbf{Ph.D. in Experimental High-Energy Particle Physics}}
-{UIUC}
-{Urbana}
-{\textsc{Il}}{}
-
-\cvitem{\textsc{Dissertation}}{
-\textit{A search for the  $\ttbar{}H (H\to{}\bbbar{})$ channel at the Large Hadron Collider with the ATLAS detector using a matrix element method}}
-
-\cventry
-{2004 -- 2008}
-{\textbf{B.S. in Engineering Physics}}{ACU}
-{Abilene}
-{\textsc{Tx}}{}
+\input{./resources/education.tex}
 
 \end{document}
