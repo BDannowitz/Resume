@@ -1,5 +1,5 @@
 # Resume
-This repository stores my LaTeX sources for my [resume](https://github.com/AffineParameter/Resume/blob/master/Resume.pdf) and [CV](https://github.com/AffineParameter/Resume/blob/master/CV.pdf)
+This repository stores my LaTeX sources for my [resume](https://github.com/BDannowitz/Resume/blob/master/Resume.pdf)
 
 # Dependencies
 
