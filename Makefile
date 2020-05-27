@@ -8,6 +8,8 @@ all: $(SRCS:%.tex=%.pdf)
 
 %.pdf: %.tex
 	TEXINPUTS="./:./dependencies:$(TEXINPUTS)" $(LATEX) $(OPTS) $^
+	rm -rf ./*.aux ./*.log ./*.out
+
 
 clean:
 	-rm -rf ./*.pdf ./*.aux ./*.log ./*.out
