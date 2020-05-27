@@ -3,5 +3,8 @@
 *.out
 *.synctex*
 
+.DS_store
+*.zip
+
 # Protect Identities & Contact Info
 *references_full.tex
