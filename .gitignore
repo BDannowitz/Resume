@@ -1,0 +1,7 @@
+*.log
+*.aux
+*.out
+*.synctex*
+
+# Protect Identities & Contact Info
+*references_full.tex

@@ -1,0 +1,91 @@
+\documentclass[10pt,a4paper,sans]{moderncv}
+\usepackage{color}
+\usepackage[symbol]{footmisc}
+\def\Tiny{\fontsize{1pt}{1pt} \selectfont}
+
+\moderncvtheme[blue]{classic}
+\usepackage[utf8]{inputenc}
+\usepackage{atlasphysics}
+\usepackage[top=0.75in, bottom=1.0in, left=1.0in, right=1.0in]{geometry}
+
+% pdf data
+\pdfinfo{
+/Author (Austin Basye)
+/Title  (Austin Basye's CV)
+/Subject (Austin Basye)
+}
+
+% personal data
+\firstname{Austin}
+\familyname{Basye}
+\title{Data Scientist, Physics PhD}
+\address{1718 Belmont Blvd.}{Abilene, TX 79602}
+\phone[fixed]{(806)-620-2076}
+\email{austin.basye@gmail.com}
+\social[twitter][]{ATBasye}
+\social[linkedin][]{austinbasye}
+\photo[64pt]{resources/Austin_Basye}
+
+\newcommand{\up}[1]{\ensuremath{^\textrm{\scriptsize#1}}}
+
+% the ConTeXt symbol
+\def\ConTeXt{%
+  C%
+  \kern-.0333emo%
+  \kern-.0333emn%
+  \kern-.0667em\TeX%
+  \kern-.0333emt}
+\definecolor{web}{rgb}{0.2,0.2,0.2}
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+
+%----------------------------------------------------------------------------------
+%            Title
+%----------------------------------------------------------------------------------
+\maketitle
+\vspace{-12mm}
+
+%----------------------------------------------------------------------------------
+%            Education
+%----------------------------------------------------------------------------------
+\input{resources/sections/education/education}
+
+%----------------------------------------------------------------------------------
+%            Major Publications
+%----------------------------------------------------------------------------------
+\input{resources/sections/major_publications/major_publications}
+
+%----------------------------------------------------------------------------------
+%            Work & Research Experience
+%----------------------------------------------------------------------------------
+\input{resources/sections/experience/experience}
+
+%----------------------------------------------------------------------------------
+%            Teaching
+%----------------------------------------------------------------------------------
+\input{resources/sections/teaching/teaching_experience}
+
+%----------------------------------------------------------------------------------
+%            Proficiencies
+%----------------------------------------------------------------------------------
+\input{resources/sections/proficiencies/proficiencies}
+
+%----------------------------------------------------------------------------------
+%            Interests
+%----------------------------------------------------------------------------------
+\input{resources/sections/interests/interests}
+
+%----------------------------------------------------------------------------------
+%            Awards
+%----------------------------------------------------------------------------------
+\input{resources/sections/honors_awards/honors_awards}
+
+%----------------------------------------------------------------------------------
+%            References
+%----------------------------------------------------------------------------------
+\input{resources/sections/references/references_full}
+
+\end{document}
